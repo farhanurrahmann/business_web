@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    
+   
+}
+
+.nav{
+    height: 60px;
+    width: 1352px;
+    display: flex;
+    
+}
+.logo{
+
+    height: auto;
+    width: auto;
+    flex: 1;
+}
+.logo img{
+    width: 200px;
+    margin: 30px 0px 0px 40px;
+    /* margin-bottom: 5px !important; */
+}
+.menu{
+    height: auto;
+    width: auto;
+    flex: 2;
+    
+}
+.menu li{
+    list-style-type: none;
+    float: left;
+    color: white;
+    margin: 10px;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sing_in{
+    flex: 1;
+  
+    
+}
+.btn{
+    margin: 20px 0px 0px 150px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    width: 140px;
+
+}
+.btn p{
+    text-align: center;
+    height: auto;
+    width: auto;
+    font-size: 16px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+
+    height: 659px;
+    background-image:url(../img/bg2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.title{
+    padding: 80px 0px 0px 120px;
+    color: white;
+    margin-top: 90px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pragraph{
+    padding: 0px 0px 0px 120px;
+    color: white;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.btn_2{
+    height: 50px;
+    width: 150px;
+    float: left;
+    margin: 0px 0px 0px 117px;
+    border-radius: 30px;
+    margin-right: 30px;
+    background-color: rgb(255, 255, 255);
+}
+.btn_text{
+    /* padding-top: 2px; */
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.btn_3{
+    height: 50px;
+    width: 150px;
+    box-sizing: border-box;
+    /* margin: 0px 0px 0px 130px; */
+    margin-left: 30px;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: rgb(56, 56, 255);
+}
+.btn_text3{
+    /* padding-top: 1px; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    width: auto;
+    text-align: center;
+}
+.btn_grp{
+    margin-top: 40px;
+}
+.services{
+    height: 500px;
+    background-color: #f0f0f0;
+}
+.our_service{
+    margin-top: 50px;
+    margin-left: 600px;
+    height: 30px;
+    width: 150px;
+    padding-top: 5px;
+    border-radius: 30px;
+    background-color: #e5ebf7;
+    text-align: center;
+
+    
+}
+.our_service_text{
+   
+    margin-top: 6px;
+    color: #3375EC;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 580;
+    text-align: center;
+   
+}
+.what_we_do{
+    text-align: center;
+    font-size: 36px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.boxes{
+    height: 300px;
+    width: 1352px;
+    display: flex;
+    column-gap: 30px;
+}
+.market_analysis{
+    flex: 1;
+    box-shadow: 0px 0px 30px rgb(234, 234, 234);
+    margin-left: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.funds_managment{
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px rgb(234, 234, 234);
+    background-color: white;
+}
+.pr_marketing{
+    flex: 1;
+    box-shadow: 0px 0px 30px rgb(234, 234, 234);
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color: white;
+}
+.about_us{
+    height: 650px;
+    background-color: #3375EC;
+    display: flex;
+    column-gap: 70px;
+}
+.image img{
+    height: auto;
+    width: 620px;
+    border-radius: 8px;
+    margin-top: 100px;
+    margin-left: 80px;
+    flex: 2;
+}
+.about_text{
+    flex:1;
+ 
+    margin-top: 130px;
+}
+.about_text h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    padding: 0;
+}
+.about_text p{
+   color: white;
+   font-size: 18px;
+   line-height: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+    
+}
+.about_text ul li{
+    color: white;
+     list-style: disc;
+     margin-top: 10px;
+     font-size: 16px;
+     font-family: Arial, Helvetica, sans-serif;
+
+     
+ }
+ .about_text ul{
+ 
+     margin-top: 30px;
+     margin-left: 15px;
+     padding: 0;
+
+ }
+ .readmore_btn{
+    height: 45px;
+    width: 150px;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    font-size: 14px;
+    border: none;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .about_businet{
+    height: 30px;
+    width: 130px;
+    padding: 0;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #5C91F0;
+ }
+ .about_businet p {
+    color: white;
+    font-size: 12px;
+    font-weight: 540;
+    padding-top: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
